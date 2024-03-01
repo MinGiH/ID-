@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>간단한 챗봇</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<h1>안녕하세요! 무엇에 대해 알고 싶으신가요?</h1>
+<ul id="questionList">
+    <li class="question" onclick="selectQuestion(1)">오늘의 날씨는 어떤가요?</li>
+    <li class="question" onclick="selectQuestion(2)">취미는 무엇인가요?</li>
+    <li class="question" onclick="selectQuestion(3)">어떤 책을 좋아하나요?</li>
+    <!-- 추가 질문은 여기에 추가 -->
+</ul>
+<div id="answer"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

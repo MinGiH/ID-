@@ -1,0 +1,9 @@
+/* 스타일을 원하는 대로 수정하세요 */
+li {
+    cursor: pointer;
+    list-style-type: none;
+}
+
+#answer {
+    margin-top: 20px;
+}
